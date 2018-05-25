@@ -1,27 +1,26 @@
-# TS Module #
+# IdleHandler #
 
 Detect when a user is idle.
 
-
-Main dependencies:
-
-* **Application Server**: [Node](https://nodejs.org/en/)
-* **Compiler**: [TypeScript](https://github.com/Microsoft/TypeScript)
-* **Linter**: [TSLint](https://github.com/palantir/tslint)
-* **Task Runner**: [Gulp](https://github.com/gulpjs/gulp)
-* **Code Compressor**: [Uglify](https://github.com/mishoo/UglifyJS2)
-* **Unit Test Runner**: [Tape](https://github.com/substack/tape)
+The event `idleuser` is sent when user is idle.
 
 
 ## Installation ##
 
-The TypeScript compiler and TSLint should be installed globally.
+	npm install --dev idlehandler
 
-	$> git clone https://github.com/yahiko00/TSModule.git <new folder>
-	$> cd <new folder>
-	$> git init
-	$> npm install
 
+## Usage ##
+
+```ts
+import { IdleHandler } from "./IdleHandler";
+
+const idleHandler = new IdleHandler(1000); // User is considered idle after 1 second (1000 ms) of inactivity
+
+window.addEventListener("idleuser", () => {
+	// Execute something...
+})
+```
 
 ## Build ##
 
