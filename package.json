@@ -2,7 +2,7 @@
   "name": "idlehandler",
   "version": "0.1.0",
   "description": "Detect when a user is idle.",
-  "main": "idlehandler.js",
+  "main": "index.js",
   "scripts": {
     "build": "gulp minify",
     "clean": "gulp clean",
