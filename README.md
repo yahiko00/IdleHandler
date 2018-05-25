@@ -8,6 +8,7 @@ The event `idleuser` is sent when user is idle.
 ## Installation ##
 
 In `package.json`, in section `dependencies`, add:
+
 	idlehandler: git+https://git@github.com/yahiko00/idlehandler.git
 
 
