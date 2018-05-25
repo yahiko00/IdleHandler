@@ -1,13 +1,6 @@
 # TS Module #
 
-A module boiler plate in **TypeScript** with **source map** support.
-
-Main features:
-
-* Source Map support
-* Incremental Build
-* Unit tests
-* Browser auto-refresh
+Detect when a user is idle.
 
 
 Main dependencies:

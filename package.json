@@ -1,7 +1,7 @@
 {
-  "name": "ts-module",
+  "name": "idlehandler",
   "version": "0.1.0",
-  "description": "Module boiler plate using TypeScript, Gulp, Uglify and Tape",
+  "description": "Detect when a user is idle.",
   "main": "module.js",
   "scripts": {
     "build": "gulp minify",
@@ -35,7 +35,7 @@
   },
   "dependencies": {},
   "settings": {
-    "debug": true,
+    "debug": false,
     "tsconfig": {
       "debug": "tsconfig.debug.json",
       "release": "tsconfig.json"
